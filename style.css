@@ -42,7 +42,8 @@ header{
 }
 .logo img{
   width: 50%;
-  height: 30%;
+  height: 70pX;
+  color: var(--text-color);
 }
  .navbar{
   display: flex;
@@ -71,8 +72,33 @@ header{
   font-weight: 500;
   margin-left: 20px;
   transition: all .40s ease;
+}
+.h-btn1{
+   color: var(--other-color);
+   font-size: 18px;
+   font-weight: 500;
+}
+.h-btn2:hover{
+  transform: translateX(-7px);
+}
+#menu-icon{
+  margin-right:5px; 
+  color: var(--other-color);
+  font-size: 36px;
+  cursor:pointer;
+  z-index:10001;
+  display: none;
+}
+section{
+padding:80px 15% 70px;
+}
+.home{
+  position: relative;
+  height:100vh;
+  width:100%;
+  display:grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 4.5rem; 
 
 }
-
-
-
