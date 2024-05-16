@@ -170,3 +170,19 @@ header.sticky{
   height: auto;
   
 }
+.property-content{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(300px,auto));
+  align-items: center;
+  gap: 2rem;
+  margin-top: 4.5rem; 
+}
+.row{
+  position: relative;
+  cursor: pointer;
+}
+.row img{
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px; 
+}
