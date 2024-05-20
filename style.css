@@ -90,7 +90,7 @@ header{
   display: none;
 }
 section{
-padding:80px 15% 70px;
+padding:80px 10% 70px;
 }
 .home{
   position: relative;
@@ -224,4 +224,49 @@ header.sticky{
 }
 .btn:hover{
   transform: translateY(-7px) scale(0.9);
+}
+.about{
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  align-items: center;
+}
+.about-img{
+  display: flex;
+  width: 500px;
+  height: 500px;
+  gap: 2rem;
+}
+.about-text {
+  grid-column:7/13;
+}
+.about-text h2{
+  font-size: var(--h2-font);
+  margin-bottom: 20px;
+}
+.about-text p{
+  font-size: var(--p-font);
+  color: var(--other-color);
+  line-height: 30px;
+  margin-bottom: 50px;
+}
+.Subscribe-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background-image: url(ESTATE\ PICS/ss.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  padding: 6rem 2rem;
+}
+.Subscribe-content h2{
+  font-size: var(--h2-font);
+  margin-bottom: 12px;
+}
+.Subscribe-content p{
+  font-size: var(--p-font);
+  line-height: 30px;
+  margin-bottom: 27px;
 }
